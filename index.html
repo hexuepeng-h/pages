@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>饿了么-外卖红包天天领</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="static/css/index.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/code.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/js/mui/css/mui.min.css">
+
+    <style>
+        .el-progress-bar {
+            width: 90%;
+        }
+
+        .el-table {
+            overflow: visible;
+        }
+
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app" style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:auto">
+        <div class="Base--Page--2Ovwvks">
+            <div class="Base--Info--2cTI1a8">
+                <div class="swiper-container swiper-container-vertical" style="height: 40vw">
+                    <div class="swiper-wrapper"
+                        style="transition-duration: 0ms; transform: translate3d(0px, -750px, 0px);">
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"
+                            style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">15</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻2.7倍</div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="0" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">19</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻3.0倍</div>
+                        </div>
+
+                        <div class="swiper-slide" data-swiper-slide-index="1" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">13</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻2.6倍</div>
+                        </div>
+
+                        <div class="swiper-slide" data-swiper-slide-index="2" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">10</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻1.5倍</div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">12</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻2.7倍</div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="4"
+                            style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">20</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻2.1倍</div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="5" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">18</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻3倍</div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="6" style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">15</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻2.7倍</div>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+                            style="height: 150px;">
+                            <div><span class="Base--MoneyUnit--3A6MmXm">￥</span><b
+                                    class="Base--MoneyNum--1tJtZT_">19</b></div>
+                            <div class="Base--Radio--2MR7WtL">已翻3.0倍</div>
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+            <div class="Base--Box--Zdsst0a">
+                <button class="Base--Btn--2Rjsls0 animate__pulse" onclick="copyText('shop')">点击复制口令</button>
+            </div>
+            <div id="shop" style=" font-size:0;"></div>
+        </div>
+    </div>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/vue.js"></script>
+    <script src="static/js/index.min.js"></script>
+    <script src="static/js/swiper.min.js"></script>
+    <script src="static/js/swiper.animate.min.js"></script>
+    <script src="static/js/mui/js/mui.min.js"></script>
+    <script>
+
+        $("#shop").html('0fυィ直文本 1:/＄Ws4EXtA＄~.👉饿了么App👈【快來領外賣紅包，最高20元，人人都有哦~】');
+
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+            autoplay: {
+                delay: 2000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            on: {
+                init: function () {
+                    swiperAnimateCache(this); //隐藏动画元素
+                    this.emit('slideChangeTransitionEnd');//在初始化时触发一次slideChangeTransitionEnd事件
+                },
+                slideChangeTransitionEnd: function () {
+                    swiperAnimate(this); //每个slide切换结束时运行当前slide动画
+                    this.slides.eq(this.activeIndex).find('.ani').removeClass('ani');//动画只展示一次
+                }
+            }
+        });
+
+
+        function copyText(shop) {
+            const range = document.createRange();
+            range.selectNode(document.getElementById(shop));
+
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+            mui.alert("口令复制成功,请打开[饿了么APP]领取", "提示");
+            let appScheme = 'eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&bc_fl_src=locallife_wtzt_0-0-ADGROUPID-__REQID__-2&url=https://3ed725.ug.ele.me/wow/alsc/mod/9b7dd5e527780fb84b5559a7?inviterId=3a0cd30a&channel=3&actId=1&scene=f508d497cb37446ea69d22785fc63227&o2i_1st_clk=__CLICK_ID__&fastmode=1';
+            window.location.href = appScheme;
+        }
+
+        // function tb_open(url) {
+
+        //     mui.plusReady(function () {
+
+        //         plus.runtime.openURL(url.replace('http://', 'taobao://').replace('https://', 'taobao://'), function (e) {
+        //             // 未安装手淘APP处理事件
+        //             plus.runtime.openURL(
+        //                 'tmall://page.tm/appLink?action=ali.open.nav&module=h5&bootImage=0&source=sb&appkey=24585446&params=%7B%22fid%22%3A%22dy4QFxsAzbS%22%7D&_ns=1&h5Url=' +
+        //                 url,
+        //                 function (e) {
+        //                     //未安装天猫APP处理事件
+
+        //                     //使用外部浏览器打开
+
+        //                     plus.runtime.openURL(url);
+
+        //                 }, 'com.tmall.wireless');
+
+        //         }, 'com.taobao.taobao');
+
+        //     });
+
+        // }
+    </script>
+</body>
+
+</html>
